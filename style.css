@@ -191,6 +191,11 @@ body {
 
 }
 
+.pet-filter .active {
+    color: #475AFF;
+
+}
+
 .site-footer {
     color: #A6A6A6;
     text-align: center;
