@@ -112,60 +112,26 @@
         <div class="page-section-inner">
             <h1 class="page-section-title">Meet Our Firends</h1>
             <div class="pet-filter">
-                <p>Show Me: <button>All Pets</button> <button>Only Dogs</button> <button>Only Cats</button></p>
+                <p>Show Me: <button class="active" data-filter="all">All Pets</button> <button data-filter="dog">Only
+                        Dogs</button> <button data-filter="cat">Only Cats</button></p>
             </div>
-            <div class="list-of-pets">
+            <div class="list-of-pets"></div>
+            <template id="pet-card-template">
                 <div class="pet-card">
                     <div class="pet-card-text">
-                        <h1>Barksalot</h1>
-                        <p class="pet-description">Barksalot is a sweet and lovable 3 year old ball of fluff. He loves
-                            carrots, celery, and playing fetch.</p>
-                        <p class="pet-age">2 years old
-                        <p>
+                        <h1></h1>
+                        <p class="pet-description"></p>
+                        <p class="pet-age"></p>
+
                     </div>
                     <div class="pet-card-photo">
-                        <img src="images/peri-stojnic-5Vr_RVPfbMI-unsplash 2.jpg"
-                            alt="A Whilte Fluffy Dog Named Barksalot">
+                        <img src="" alt="">
                     </div>
                 </div>
-                <div class="pet-card">
-                    <div class="pet-card-text">
-                        <h1>Meowsalot</h1>
-                        <p class="pet-description">Meowsalot is the most talkative cat we&rsquo;ve ever come across.
-                            Constant meowing, chirping and purring!</p>
-                        <p class="pet-age">1 year old
-                        <p>
-                    </div>
-                    <div class="pet-card-photo">
-                        <img src="images/Meowsalot.jpg" alt="A Cute Cat Named Meowsalot">
-                    </div>
-                </div>
-                <div class="pet-card">
-                    <div class="pet-card-text">
-                        <h1>Woof</h1>
-                        <p class="pet-description">Woof is a very talkative and sweet pup. She loves beets, plums,
-                            cuddles and jumping over low fences.</p>
-                        <p class="pet-age">Less than a year old
-                        <p>
-                    </div>
-                    <div class="pet-card-photo">
-                        <img src="images/Woof.jpg" alt="A Brown Fluffy Dog Named Woof">
-                    </div>
-                </div>
-                <div class="pet-card">
-                    <div class="pet-card-text">
-                        <h1>Purrsloud</h1>
-                        <p class="pet-description">Purrsloud has the loudest and most relaxing purr that’s come through
-                            our center. Come hear it yourself.</p>
-                        <p class="pet-age">4 years old
-                        <p>
-                    </div>
-                    <div class="pet-card-photo">
-                        <img src="images/Purrsloud.jpg" alt="An Old Cat Named Purrsloud">
-                    </div>
-                </div>
-            </div>
+            </template>
+
         </div>
+
     </div>
     <footer class="site-footer">
         <p>&copy; 2023 Fake Adoption Center. All rights reserved</p>
